@@ -38,11 +38,6 @@ namespace PongLecture.Game
             Raylib.DrawRectangleRec(GetPaddle(), Color.WHITE);
         }
 
-        public void AI(float y)
-        {
-            this.y = y;// + height;
-        }
-
         public void UpdatePosition(int player)
         {
             if (!IsPaused)

@@ -162,8 +162,7 @@ namespace PongLecture.Game
         {
             ball.UpdatePosition();
             leftPaddle.UpdatePosition(1);
-            //rightPaddle.UpdatePosition(2);
-            rightPaddle.AI(ball.y);
+            rightPaddle.UpdatePosition(2);
         }
 
         private void PrintScore()
