@@ -12,7 +12,7 @@ namespace PongLecture
      * I detta program så har jag implementerat följande designmönster: Singleton, Observer samt Strategy.
      * 
      * Singleton för klassen Pong då endast ett objekt av typen Pong ska existera.
-     * Observer används på så sätt att spelobjekten är observers och själva spelet Pong är subject.
+     * Observer används på så sätt att spelobjekten är observers och själva spelet Pong är subject. Detta används för att spelet ska kunna pausas.
      * Strategy används för att bestämma svårigheten för spelarnas paddlar. 
      */
     class Program

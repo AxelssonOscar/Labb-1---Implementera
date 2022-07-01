@@ -2,6 +2,7 @@
 
 namespace PongLecture.Game
 {
+    //Klassen Paddle ärver interfacet IObserver för att spelet ska kunna pausas.
     public class Paddle : IObserver
     {
         public float x, y;

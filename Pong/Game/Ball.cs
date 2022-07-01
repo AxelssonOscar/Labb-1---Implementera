@@ -2,6 +2,7 @@
 
 namespace PongLecture.Game
 {
+    //Klassen Ball ärver interfacet IObserver för att spelet ska kunna pausa.
     public class Ball : IObserver
     {
 

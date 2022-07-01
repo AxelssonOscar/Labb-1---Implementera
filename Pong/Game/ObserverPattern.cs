@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace PongLecture.Game
 {
+
+    //Interface för hantering av IObserver samt ISubject.
     public interface IObserver
     {
         void Pause(bool pause);

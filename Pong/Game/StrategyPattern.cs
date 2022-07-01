@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace PongLecture.Game
 {
+    //Paddlarnas storlek bestäms under runtime med hjälp av StrategyPattern. 
     public interface IPaddleSkill
     {
         float GetHeight(float height);

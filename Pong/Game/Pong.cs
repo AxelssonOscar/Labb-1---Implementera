@@ -4,6 +4,7 @@ using Raylib_cs;
 
 namespace PongLecture.Game
 {
+    //Då vi enbart behöver ett spel så är klassen Pong en Singleton.
     public class Pong : ISubject
     {
         private static Pong instance = null;
@@ -20,6 +21,7 @@ namespace PongLecture.Game
             }
         }
 
+        //StrategyPattern
         private EasyPaddle easySkill;
         private MediumPaddle mediumPaddle;
         private HardPaddle hardSkill;
